@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+}
+
+h2 {
+  text-align: center;
+}
+
+#console-wrapper {
+  color: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  min-width: 360px;
+  background: #000000;
+  border: 0;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+li:before {
+  content: ">";
+  display: inline-block;
+  margin-left: -10px;
+  width: 16px;
+  color: #333;
+}
